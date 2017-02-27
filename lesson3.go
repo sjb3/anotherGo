@@ -28,7 +28,7 @@ func main() {
 	var answer int = 35
 
 	fmt.Printf("I'm thinking of a number ")
-	
+
 	for {
 		g := askInt(" Take a Guess")
 		if g == answer {
